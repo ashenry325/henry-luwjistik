@@ -111,7 +111,7 @@ export default {
      beforeCreate () {
         const checkCookies = ( Cookies.get('session')) ? true : false
         if(checkCookies){
-            this.$router.push("/home")
+            this.$router.push("/dashboard")
         }
      },
 }
